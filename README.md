@@ -1,5 +1,6 @@
 # loopj_http_client_example
-- This repository demonstrates usage of loopj Android async http client with proxy. (https://mvnrepository.com/artifact/com.loopj.android/android-async-http, https://loopj.com/android-async-http/)
+- This repository demonstrates usage of [loopj Android async http client](https://loopj.com/android-async-http/) in environments with a proxy.
+- [Maven / Gradle](https://mvnrepository.com/artifact/com.loopj.android/android-async-http)
 
 
 # Steps to run the code
@@ -34,3 +35,5 @@ if(proxyHost!=null && proxyPort!=null) {
   client.setProxy(proxyHost, Integer.parseInt(proxyPort));
 }
 ```
+
+Note: We have used the latest version of the loopj http library (V1.4.11) as of date which was released in June 2020. According to this [thread](https://github.com/android-async-http/android-async-http/issues/971), support for proxies was resolved in loopj in V1.4.10 which was released in July 2019.
