@@ -1,4 +1,5 @@
 # loopj_http_client_example
+- An Android or iOS app should be "proxy aware" for testing using BrowserStack features like BrowserStack Local testing or BrowserStack IP Whitelisting.
 - This repository demonstrates usage of [loopj Android async http client](https://loopj.com/android-async-http/) in environments with a proxy.
 - [Maven / Gradle](https://mvnrepository.com/artifact/com.loopj.android/android-async-http)
 
